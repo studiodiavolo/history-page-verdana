@@ -99,3 +99,8 @@ img{
 .dates p{
 margin-top: -25px;
 }
+.sources ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
