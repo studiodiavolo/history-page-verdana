@@ -49,4 +49,45 @@ img{
     margin-right: auto;
     padding: 64px 80px;
     display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 24px;
+    grid-template-areas: 
+    "title title title title title title title title title title title title"
+    "dates dates dates dates dates dates dates dates dates dates dates dates"
+    "description description description description description description description specimen specimen specimen specimen specimen"
+    "importance importance importance importance importance importance importance features features features features features"
+    "practice practice practice practice practice practice practice features features features features features"
+    "sources sources sources sources sources sources sources sources sources sources sources sources";
+}
+.title{
+    grid-area: title;
+}
+.dates{
+    grid-area: dates;
+    font-size: 16px;
+    color: #666666;
+}
+.description{
+    grid-area: description;
+}
+.specimen{
+    grid-area: specimen;
+}
+.importance{
+    grid-area: importance;
+}
+.practice{
+    grid-area: practice;
+}
+.features{
+    grid-area: features;
+}
+.sources{
+    grid-area: sources;
+}
+.sources a{
+   text-decoration: underline;
+}
+.sources a:hover{
+    color: #555555;
 }
