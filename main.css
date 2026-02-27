@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color:#ffffff;
+    color: #111111;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 0;
+}
