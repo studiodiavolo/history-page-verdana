@@ -107,3 +107,6 @@ margin-top: -25px;
 .description, .importance, .practice {
     max-width: 75ch;
 }
+.specimen img{
+    margin-bottom: 24px;
+}
