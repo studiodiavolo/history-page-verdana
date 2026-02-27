@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html, body {
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     background-color:#ffffff;
@@ -39,7 +42,7 @@ li{
     margin-bottom: 8px;
 }
 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
@@ -49,8 +52,7 @@ img{
     margin-right: auto;
     padding: 64px 80px;
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    gap: 24px;
+    grid-template-columns: repeat(12,minmax(0,1fr));
     grid-template-areas: 
     "title title title title title title title title title title title title"
     "dates dates dates dates dates dates dates dates dates dates dates dates"
@@ -58,6 +60,7 @@ img{
     "importance importance importance importance importance importance importance features features features features features"
     "practice practice practice practice practice practice practice features features features features features"
     "sources sources sources sources sources sources sources sources sources sources sources sources";
+gap: 24px;
 }
 .title{
     grid-area: title;
