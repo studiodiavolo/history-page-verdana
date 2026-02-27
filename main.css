@@ -112,3 +112,16 @@ margin-top: -25px;
 .specimen img{
     margin-bottom: 24px;
 }
+.specimen img {
+    transition: 0.2s ease-in-out;
+
+}
+.specimen img:hover {
+    transform: scale(1.05);
+}
+.features img {
+    transition: 0.2s ease-in-out;
+}
+.features img:hover {
+    transform: scale(1.05);
+}
