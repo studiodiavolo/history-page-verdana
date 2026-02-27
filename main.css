@@ -104,3 +104,6 @@ margin-top: -25px;
     padding-left: 0;
     margin-left: 0;
 }
+.description, .importance, .practice {
+    max-width: 75ch;
+}
